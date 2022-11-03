@@ -22,8 +22,8 @@ class MyApp extends StatelessWidget {
       title: 'Meet Annabel',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSwatch(primarySwatch: Colors.indigo)
-            .copyWith(secondary: Colors.amberAccent),
+        colorScheme: ColorScheme.fromSwatch(primarySwatch: Colors.purple)
+            .copyWith(secondary: Colors.white70),
         accentColor: Colors.amber,
       ),
       home: const AboutMe(),
