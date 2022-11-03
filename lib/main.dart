@@ -1,5 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:meet_annabel/Screens/home_page.dart';
+import 'package:meet_annabel/Screens/education.dart';
+import 'package:meet_annabel/Screens/settings.dart';
+import 'package:meet_annabel/Screens/skills.dart';
+
+import 'Screens/about _me.dart';
+import 'Screens/experience.dart';
+import 'Screens/projects.dart';
+import 'const/route.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,9 +22,20 @@ class MyApp extends StatelessWidget {
       title: 'Meet Annabel',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.lime,
+        colorScheme: ColorScheme.fromSwatch(primarySwatch: Colors.indigo)
+            .copyWith(secondary: Colors.amberAccent),
+        accentColor: Colors.amber,
       ),
-      home: const HomePage(),
+      home: const AboutMe(),
+      routes: {
+        aboutMeRoute: (context) => const AboutMe(),
+        educationRoute: (context) => const Education(),
+        experienceRoute: (context) => const Experience(),
+        projectRoute: (context) => const Projects(),
+        settingsRoute: (context) => const Settings(),
+        skillsRoute: (context) => const Skills(),
+        
+      },
     );
   }
 }
