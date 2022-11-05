@@ -1,29 +1,13 @@
-# meet_annabel
+# Name : Meet Annabel
 
-## HNG stage 2 task steps to accomplish it
+## Description: A simple app that which serves as a Resume
 
-### Task: Build interactive mobile app
+## Design: The app has  drawer which serves as a simple navigation for the different pages in the app
 
-### Must to have
+## Featues: the app has link to my social contacts
 
-1. Name/ Username / title
-2. image
-3. more about yourself
-4. social media link
-5. 5.what you can do for the company
+## Library: URl lancher package is used
 
-### Not must to have
+## APK
 
-1. Dark mood
-2. Switch to different languages
-
-### Steps
-
-1. create a flutter app name "Meet Annabel"... Done
-2. find a simple UI that will serve as UI base for the app... Done
-3. Build the UI with dummy text... Done
-4. update the app with real text... Done
-5. implement landscape ... Done
-6. Document app in README file
-7. upload app to Appetize.io
-8.final HNG form submission.
+## Apptize.io
