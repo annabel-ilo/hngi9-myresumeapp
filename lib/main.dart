@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:meet_annabel/Screens/education.dart';
 import 'package:meet_annabel/Screens/settings.dart';
 import 'package:meet_annabel/Screens/skills.dart';
@@ -8,9 +9,14 @@ import 'Screens/experience.dart';
 import 'Screens/projects.dart';
 import 'const/route.dart';
 
-void main() {
+Future<void> main() async {
+  await SystemChrome.setPreferredOrientations([
+    DeviceOrientation.portraitUp,
+    DeviceOrientation.portraitDown,
+  ]);
   runApp(const MyApp());
 }
+
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
