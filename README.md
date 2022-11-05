@@ -14,6 +14,6 @@
 
 ## Library: URl lancher package is used
 
-[debug APK](Built build\app\outputs\flutter-apk\app-debug.apk.)
+## [debug APK](Built build\app\outputs\flutter-apk\app-debug.apk.)
 
-## Apptize.io
+# [Appetizer.io:](https://appetize.io/app/fv4po5b5uapryung7yggmqhqcu?device=pixel4&osVersion=11.0&scale=75)
