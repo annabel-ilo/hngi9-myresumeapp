@@ -31,7 +31,7 @@ class AppDrawer extends StatelessWidget {
             ),
             const Divider(thickness: 5.0),
             ListTile(
-              leading: const Icon(Icons.work),
+              leading: const Icon(Icons.work, color: Colors.purple),
               title: const Text('Experience'),
               onTap: () {
                 Navigator.of(context).pushNamed(experienceRoute);
