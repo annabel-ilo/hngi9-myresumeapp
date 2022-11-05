@@ -18,7 +18,7 @@ class AppDrawer extends StatelessWidget {
               leading: const Icon(Icons.person),
               title: const Text('About Me'),
               onTap: () {
-                Navigator.of(context).pushReplacementNamed(aboutMeRoute);
+                Navigator.of(context).pushNamed(aboutMeRoute);
               },
             ),
             const Divider(thickness: 5.0),
@@ -26,7 +26,7 @@ class AppDrawer extends StatelessWidget {
               leading: const Icon(Icons.book),
               title: const Text('Education'),
               onTap: () {
-                Navigator.of(context).pushReplacementNamed(educationRoute);
+                Navigator.of(context).pushNamed(educationRoute);
               },
             ),
             const Divider(thickness: 5.0),
