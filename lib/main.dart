@@ -3,7 +3,7 @@ import 'package:meet_annabel/Screens/education.dart';
 import 'package:meet_annabel/Screens/settings.dart';
 import 'package:meet_annabel/Screens/skills.dart';
 
-import 'Screens/about _me.dart';
+import 'Screens/about_me.dart';
 import 'Screens/experience.dart';
 import 'Screens/projects.dart';
 import 'const/route.dart';
@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSwatch(primarySwatch: Colors.purple)
             .copyWith(secondary: Colors.white70),
-        accentColor: Colors.amber,
+        //accentColor: Colors.amber,
       ),
       home: const AboutMe(),
       routes: {

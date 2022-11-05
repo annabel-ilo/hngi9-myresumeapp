@@ -15,7 +15,7 @@ class AppDrawer extends StatelessWidget {
               title: const Text('Meet Annabel'),
             ),
             ListTile(
-              leading: const Icon(Icons.person),
+              leading: const Icon(Icons.person, color: Colors.purple),
               title: const Text('About Me'),
               onTap: () {
                 Navigator.of(context).pushNamed(aboutMeRoute);
@@ -23,7 +23,7 @@ class AppDrawer extends StatelessWidget {
             ),
             const Divider(thickness: 5.0),
             ListTile(
-              leading: const Icon(Icons.book),
+              leading: const Icon(Icons.book, color: Colors.purple),
               title: const Text('Education'),
               onTap: () {
                 Navigator.of(context).pushNamed(educationRoute);
