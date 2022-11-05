@@ -50,7 +50,7 @@ class _AboutMeState extends State<AboutMe> {
     var size = MediaQuery.of(context).size;
     return Scaffold(
       bottomNavigationBar: Container(
-        height: 100,
+        height: size.height /7,
         child: Column(
           children: [
             Container(
@@ -73,7 +73,7 @@ class _AboutMeState extends State<AboutMe> {
                   onPressed: ()=> linkedInLink(_linkedIn),
                   child: Socials(child: Image.asset('assets/images/linkedIn.png'))),
                 TextButton(
-                  onPressed: ()=>_sendEmail('_emailAddress'),
+                  onPressed: ()=>_sendEmail(_emailAddress),
                   child: Socials(child: Image.asset('assets/images/gmailIcon.png'))),
                 TextButton(
                   onPressed: ()=> gitLink(_git),
