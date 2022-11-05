@@ -9,12 +9,12 @@ import 'Screens/experience.dart';
 import 'Screens/projects.dart';
 import 'const/route.dart';
 
-Future<void> main() async {
-  await SystemChrome.setPreferredOrientations([
-    DeviceOrientation.portraitUp,
-    DeviceOrientation.portraitDown,
-  ]);
-  runApp(const MyApp());
+void main()  {
+  // await SystemChrome.setPreferredOrientations([
+  //   DeviceOrientation.portraitUp,
+  //   DeviceOrientation.portraitDown,
+  // ]);
+   runApp(const MyApp());
 }
 
 
