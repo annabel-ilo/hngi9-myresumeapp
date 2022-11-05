@@ -12,7 +12,7 @@ class Experience extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Experience'),
       ),
-      drawer: AppDrawer(),
+      drawer: const AppDrawer(),
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.only(left: 22, right: 22),
@@ -30,10 +30,10 @@ class Experience extends StatelessWidget {
                       text2: 'APR 2022 – Precent',
                       widget: Column(
                         children: [
-                          description(
+                          const description(
                               text3:
                                   "  Working in a team of software engineers towards the production of a fintech and social application."),
-                          description(
+                          const description(
                               text3:
                                   "	First hand experience with senior developers in every field of a production level application."),
                         ],
@@ -59,10 +59,10 @@ class Experience extends StatelessWidget {
                       text2: 'JUL 2021 – DEC 2021',
                       widget: Column(
                         children: [
-                          description(
+                          const description(
                               text3:
                                   " 	Worked with a flutter team to develop optimal UI and implement features for the user profile in the Zuri Chat App"),
-                          description(
+                          const description(
                               text3:
                                   "	I lead our documentation team to solve the problem of proper documentation using Docusaurus for the Zuri Chat App and Web versions."),
                         ],
@@ -88,10 +88,10 @@ class Experience extends StatelessWidget {
                       text2: 'APR 2021 – JUN  2021',
                       widget: Column(
                         children: [
-                          description(
+                          const description(
                               text3:
                                   "	I worked with a team of android Engineers to develop an app that carters for a student’s accommodation need."),
-                          description(
+                          const description(
                               text3:
                                   "	Made key contributions to the team for the success of our application.."),
                         ],
@@ -117,10 +117,10 @@ class Experience extends StatelessWidget {
                       text2: 'Dec 2019 – Jan 2021',
                       widget: Column(
                         children: [
-                          description(
+                          const description(
                               text3:
                                   " 	I updated financial data, verify the information and ensure that every document is rightly used and stored."),
-                          description(
+                          const description(
                               text3:
                                   "		Worked with the finance manager in handling the daily finance duties.."),
                         ],
@@ -163,7 +163,7 @@ class ExperWidget extends StatelessWidget {
           children: [
             Text(
               text1,
-               textAlign: TextAlign.center,
+              textAlign: TextAlign.center,
               style: const TextStyle(
                 fontSize: 18,
                 fontWeight: FontWeight.w600,
@@ -197,9 +197,9 @@ class description extends StatelessWidget {
     return RichText(
       text: TextSpan(
         children: <TextSpan>[
-          TextSpan(
+          const TextSpan(
             text: ".",
-            style: TextStyle(
+            style: const TextStyle(
               color: Colors.purple,
               fontWeight: FontWeight.w500,
               fontSize: 50,
@@ -207,7 +207,7 @@ class description extends StatelessWidget {
           ),
           TextSpan(
             text: text3,
-            style: TextStyle(
+            style: const TextStyle(
               color: Colors.black,
               fontWeight: FontWeight.w500,
               fontSize: 16,

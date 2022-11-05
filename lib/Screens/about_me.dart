@@ -176,7 +176,7 @@ class Socials extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return SizedBox(
       height: 50,
       width: 50,
       child: child,

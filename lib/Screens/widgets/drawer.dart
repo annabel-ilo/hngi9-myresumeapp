@@ -39,7 +39,7 @@ class AppDrawer extends StatelessWidget {
             ),
             const Divider(thickness: 5.0),
             ListTile(
-              leading: const Icon(Icons.construction),
+              leading: const Icon(Icons.construction,color: Colors.purple),
               title: const Text('Project'),
               onTap: () {
                 Navigator.of(context).pushNamed(projectRoute);
@@ -47,20 +47,20 @@ class AppDrawer extends StatelessWidget {
             ),
             const Divider(thickness: 5.0),
             ListTile(
-              leading: const Icon(Icons.computer),
+              leading: const Icon(Icons.computer,color: Colors.purple),
               title: const Text('Skills'),
               onTap: () {
                 Navigator.of(context).pushNamed(skillsRoute);
               },
             ),
             const Divider(thickness: 5.0),
-            ListTile(
-              leading: const Icon(Icons.settings),
-              title: const Text('Settings'),
-              onTap: () {
-                Navigator.of(context).pushNamed(settingsRoute);
-              },
-            )
+            // ListTile(
+            //   leading: const Icon(Icons.settings),
+            //   title: const Text('Settings'),
+            //   onTap: () {
+            //     Navigator.of(context).pushNamed(settingsRoute);
+            //   },
+            // )
           ],
         ),
       ),
